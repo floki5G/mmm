@@ -1,0 +1,70 @@
+.read{
+    box-shadow: 0px 0px 9px black;
+    margin: 5% 11%;
+    background-color: blanchedalmond;
+}
+.hading{
+    text-align: left;
+    font-size: 34px;
+    margin: 1%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.info{
+    background-color: brown;
+}
+.date{
+    margin-left: 1%;
+}
+.user{
+    display: flex;
+}
+.user div{
+    display: flex;
+    margin-left: 1%;
+}
+.image{
+    margin: 1% 0%;
+    text-align: center;
+
+}
+.image img{
+    height: 250px;
+    width: 400px;
+}
+.title{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-size: 29px;
+}
+.content{
+font-size: 20px;
+}
+.location{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    background-color: brown;
+}
+@media screen and (max-width: 860px){
+    .read{
+        margin: 0% 0%;
+        width: 100%;
+      
+    }
+    .hading{
+        font-size: 24px;
+        /* margin: 1%; */
+    }
+    .image img{
+        margin: 10px 0px;
+        height: 110px;
+        width: 180px;
+    }
+    .title{
+    font-size: 17px;
+}
+    .content{
+        font-size: 15px;
+        }
+        .location{
+            font-size: 15px;
+        }
+}

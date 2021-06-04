@@ -1,0 +1,39 @@
+.logine{
+    text-align: center;
+    margin: 12% 30%;
+    border: 1px solid black;
+}
+input{
+    border:  none;
+    border-bottom: 1px solid black;
+    
+    }
+.login_inside{
+    border: 1px solid rgb(156, 30, 30);
+    box-shadow: 0px 0px 10px black; 
+    padding: 8% 0%;
+}
+.login_user{
+    border-top: 1px solid rgb(156, 30, 30);
+    border-bottom: 1px solid rgb(156, 30, 30);
+    margin: 8% 25%;
+    padding: 2% 0%;
+}
+.login_pass{
+    border-top: 1px solid rgb(156, 30, 30);
+    border-bottom: 1px solid rgb(156, 30, 30);
+    margin: 8% 25%;
+    padding: 2% 0%;
+}
+.login_login input{
+    border: none;
+    padding: 3px 75px;
+    border-radius: 10px;
+    background-color: rgb(219, 23, 23);
+}
+@media screen and (max-width: 860px){
+    .logine{
+        width: 100%;
+        margin: 45% 0%;
+    }
+}

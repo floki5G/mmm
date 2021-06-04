@@ -1,0 +1,31 @@
+.image{
+    margin: 22% 40%;
+box-shadow: 0px 0px 8px black;
+    text-align: center;
+}
+.imag input{
+    margin-bottom: 5%;
+    background-color: blanchedalmond;
+
+}
+
+
+input{
+    border: none;
+    margin-top: 6%;
+}
+.imagee input{
+    padding: 1% 13%;
+    background-color: brown;
+    margin-bottom: 5%;
+}
+.imagee{
+    background-color: blanchedalmond;
+
+}
+@media screen and (max-width: 860px){
+    .image{
+        width: 100%;
+        margin: 70% 0%;
+    }
+}

@@ -1,0 +1,42 @@
+.add{
+ box-shadow: 0px 0px 10px;
+    margin: 12% 30%;
+}
+
+.add_inside {
+    text-align: center;
+}
+input{
+border: none;    
+border-bottom: 1px solid black;
+}
+.add_data{
+    border-top: 1px solid red;
+    padding: 2% 0%;
+    margin: 0% 20%;
+}
+#add_data1{
+    padding: 2% 0%;
+    margin: 0% 20%;
+}
+#add_data2{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 2% 0%;
+    margin: 0% 20%;
+}
+#sub input{
+padding: 0.4% 12%;
+margin: 4% 0%;
+border-radius: 10px;
+background-color: red;
+}
+#sub input:hover{
+    background-color: blanchedalmond;
+}
+@media screen and (max-width: 860px){
+    .add{
+        width: 100%;
+        margin: 50% 0%;
+    }
+}

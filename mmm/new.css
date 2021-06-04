@@ -1,0 +1,52 @@
+.new{
+    box-shadow: 0px 0px 10px black;
+    margin: 10% 30%;
+}
+.new_inside{
+text-align: center;
+}
+input{
+    border: none;
+    border-bottom:1px solid black ;
+}
+.new_name{
+    margin: 1% 25%;
+    padding: 2% 0%;
+}
+.new_unmae{
+    border-top: 1px solid rgb(156, 30, 30);
+    margin: 1% 25%;
+    padding: 2% 0%;
+}
+.new_email{
+    border-top: 1px solid rgb(156, 30, 30);
+    margin: 1% 25%;
+    padding: 2% 0%;
+}
+.new_pass{
+    border-top: 1px solid rgb(156, 30, 30);
+    margin: 1% 25%;
+    padding: 2% 0%;
+}
+.new_con_pss{
+    border-top: 1px solid rgb(156, 30, 30);
+    border-bottom: 1px solid rgb(156, 30, 30);
+    margin: 1% 25%;
+    padding: 2% 0%;
+}
+
+.done input{
+    margin-top: 10px;
+    padding:0.5% 10%;
+    border: none;
+    background-color: rgb(248, 14, 14);
+}
+.done input:hover{
+    background-color: rgb(234, 238, 182);
+}
+@media screen and (max-width: 860px){
+    .new{
+        margin: 50% 0%;
+        width: 100%;
+    }
+}

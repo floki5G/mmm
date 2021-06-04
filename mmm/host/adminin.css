@@ -1,0 +1,36 @@
+body{
+    margin: 15% 40%;
+box-shadow: 0px 0px 9px black;
+}
+.adminin{
+    margin-top: 1%;
+}
+.adc{
+    text-align: center;
+}
+a{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    display: block;
+    margin: 11% 17%;
+    padding:1.5% 0% ;
+}
+a:hover{
+    background-color: brown;
+}
+#one{
+ background-color: burlywood;
+    margin: 6% 2% 2% 50%;
+}
+#one:hover{
+    background-color: brown;
+}
+@media screen and (max-width: 860px){
+    body{
+        width: 100%;
+        margin: 45% 0%;
+    }
+}
